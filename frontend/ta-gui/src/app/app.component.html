@@ -1,0 +1,42 @@
+<h2>
+  Cadastro de Alunos
+</h2>
+<table>
+<tr>
+   <td><label>Nome </label></td>
+   <td><input [(ngModel)]="aluno.nome" ></td>
+   <td><button (click)="gravar(aluno)">Adicionar</button></td>
+</tr>
+<tr>
+   <td><label>CPF </label></td>
+   <td><input [(ngModel)]="aluno.cpf" ></td>
+</tr>
+<tr>
+   <td><label>e-mail </label></td>
+   <td><input [(ngModel)]="aluno.email" ></td>
+</tr>
+<tr>
+  <td><label>Endereço </label></td>
+  <td><input [(ngModel)]="aluno.end" ></td>
+</tr>
+<tr>
+  <td><label>Celular</label></td>
+  <td><input [(ngModel)]="aluno.Celular" ></td>
+</tr>
+<tr>
+  <td><label>Curso</label></td>
+  <td><input [(ngModel)]="aluno.curso" ></td>
+</tr>
+<tr>
+  <td><label>universidade</label></td>
+  <td><input [(ngModel)]="aluno.universidade" ></td>
+</tr>
+<tr>
+  <td><label>Cidade da Universidade</label></td>
+  <td><input [(ngModel)]="aluno.cidade_universidade" ></td>
+</tr>
+<tr>
+  <td><label>Ônibus</label></td>
+  <td><input [(ngModel)]="aluno.onibus" ></td>
+</tr>
+</table>
